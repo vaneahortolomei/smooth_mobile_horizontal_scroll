@@ -3,6 +3,9 @@ body {
     padding: 0;
     background: lightsteelblue;
 }
+h1 {
+    text-align: center;
+}
 .container-inset {
     max-width: 1200px;
     margin: 0 auto;
@@ -42,4 +45,17 @@ body {
     max-width: 200px;
     min-height: 200px;
     width: 100%;
+}
+
+
+.list--flex {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 50px 20px 50px;
+}
+
+.list--flex .list__item {
+    flex: 0 0 200px;
+    min-height: 200px;
 }
