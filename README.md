@@ -1,0 +1,2 @@
+# smooth_mobile_horizontal_scroll
+Horizontal-scrolling
